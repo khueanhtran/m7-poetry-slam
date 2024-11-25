@@ -3,13 +3,11 @@ var lang = 'en'
 var utterance = new SpeechSynthesisUtterance("");
 
 function sayIt(textID){
-  console.log("I'm in SayIt")
   var voices = synthesis.getVoices()
 
   console.log(voices)
 
   if ('speechSynthesis' in window) {
-    console.log("BINGO")
     utterance.voice = voices[109]
     utterance.rate = 0.8
     utterance.pitch = 1.2
