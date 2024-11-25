@@ -9,13 +9,7 @@ Object detection is done using a pre-trained Faster-RCNN network. Poetry generat
 
 To run the system, first download this project directory and navigate to the directory in the terminal. Make sure Python is installed on your computer.
 
-Run the following command to activate the virtual environment:
-
-```
-source .venv/bin/activate
-```
-
- Next, run the following commands to install the necessary modules in the virtual environment:
+Next, run the following commands to install the necessary modules:
 
 ```
 pip install spacy
